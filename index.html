@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.min.css" />
+    <title>Modern Tips calculator</title>
+  </head>
+  <body class="overlay-design">
+    <div class="logo"><img src="images/logo.svg" alt="" /></div>
+    <div class="container">
+      <div class="flex-display">
+        <h1 class="heading_h1">Tips tracker</h1>
+        <form action="" class="form" autocomplete="off">
+          <div class="form-group">
+            <label for="currency" class="label">Currency</label>
+            <select name="curr" id="currency" class="currency">
+              <option value="select">Select</option>
+              <option value="Dollars">Dollars</option>
+              <option value="Yen">Yen</option>
+              <option value="Pound">Pound</option>
+              <option value="Euro">Euro</option>
+              <option value="Cedis">Cedis</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="amount" class="label">Amount: </label>
+
+            <div class="amt-group">
+              <div class="curr-symbol"></div>
+              <input type="text" class="form-control amount" id="amount" />
+            </div>
+          </div>
+          <div class="form-group helpos">
+            <label for="names" class="label">Names: </label>
+
+            <input type="text" class="form-control" id="names" />
+            <span class="help" data-tooltips="Separate each name by a comma">i</span>
+          </div>
+          <div class="form-group">
+            <label for="" class="label"></label>
+            <button type="submit" class="calcul">Calculate</button>
+          </div>
+        </form>
+      </div>
+      <section class="ui">
+        <div class="cards">
+
+          <!-- <div class="card">
+            <div class="profile">
+              <div class="user__pic"><img class="user__pic" src='https://picsum.photos/150/150'/></div> 
+              <h2 class="user__name heading_h2 mx">User name</h2>
+              <p>Food Runner</p>
+            </div>
+            <div class="amount__details">
+
+              <h3 class="amount__info">Current amount: <span class="current__amount">32728 </span></h3>
+              <h3 class="amount__info">Total Amount: <span class="current__amount">32728 </span></h3>
+            </div>
+          </div>   -->
+        </div>
+      
+      </section>
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>

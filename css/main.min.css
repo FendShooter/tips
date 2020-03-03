@@ -1,0 +1,66 @@
+*, *::after, *::before { margin: 0; padding: 0; -webkit-box-sizing: inherit; box-sizing: inherit; }
+
+html { -webkit-box-sizing: border-box; box-sizing: border-box; font-size: 62.5%; }
+
+body { height: 100%; }
+
+img { width: 100%; height: auto; }
+
+.overlay-design { width: 100%; background-image: url(/images/design_topR.svg), url(/images/design_BottomL.svg); background-repeat: no-repeat, no-repeat; background-position: top right, bottom 0 left; background-size: 18%, 18%; }
+
+.container { width: calc(100% - 6rem); max-width: 1280px; border: 1px solid #f0f0f0; margin: 0 auto; border-radius: 4px; }
+
+.flex-display { -webkit-box-align: center; -ms-flex-align: center; align-items: center; width: 80%; margin: 0 auto; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+
+.logo { padding: 1.8rem; width: 20%; }
+
+.amt-group { display: -webkit-box; display: -ms-flexbox; display: flex; width: 100%; }
+
+.ui { margin: 5rem 0; padding: 2rem; }
+
+.cards { display: -ms-grid; display: grid; -ms-grid-columns: (minmax(28rem, 1fr))[auto-fit]; grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr)); margin: 0 auto; place-items: center; grid-gap: 2rem; }
+
+.card { padding: 1rem; width: 26rem; height: 32rem; border: 1px solid #e2e2e2; border-radius: 4px; }
+
+.user__pic { width: 5rem; height: 5rem; background: #e4e4e4; border-radius: 50%; text-transform: capitalize; }
+
+.user__name { color: #189DA7; }
+
+.user__name--info { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+
+.profile { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; width: 60%; margin-left: 2rem; }
+
+.heading_h1 { font-size: 4rem; text-transform: uppercase; font-weight: bolder; text-align: center; margin: 3rem 0; }
+
+.heading_h2 { font-size: 2rem; text-transform: uppercase; font-weight: bolder; text-align: center; }
+
+.label { color: #189DA7; font-size: 2.5rem; display: block; width: 20rem; font-weight: bolder; }
+
+.form-group { display: -webkit-box; display: -ms-flexbox; display: flex; margin-bottom: 2.4rem; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+.form-control, .form .currency { width: 100%; padding: 1.4rem; border: 2px solid #19A5D1; outline: none; }
+
+.curr-symbol { border: 2px solid #19A5D1; padding: 1rem; font-size: 2.3rem; display: -webkit-box; display: -ms-flexbox; display: flex; font-weight: bolder; color: grey; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-flex: 0; -ms-flex: 0 0 10%; flex: 0 0 10%; }
+
+.amount { -webkit-box-flex: 1; -ms-flex: 1; flex: 1; display: block; }
+
+.amount__info { font-size: 1.2rem; color: grey; margin: 2.5rem; letter-spacing: 1px; }
+
+.amount__details { margin-top: 4rem; }
+
+.current__amount { color: #000; font-weight: bold; }
+
+button[type="submit"] { padding: 1rem; width: 100%; background: #189DA7; color: white; font-size: 2rem; font-weight: bold; border: none; -webkit-transition: all 1s; transition: all 1s; border-radius: 4px; outline: none; }
+
+button[type="submit"]:hover { outline: none; background: #12737a; cursor: pointer; }
+
+.helpos { position: relative; }
+
+.help { position: absolute; top: 1; right: -3.8rem; display: -ms-grid; display: grid; place-items: center; border-radius: 50%; width: 2.5rem; font-size: 1rem; height: 2rem; background: rgba(233, 233, 233, 0.8); color: #189DA7; cursor: pointer; }
+
+.help:hover::after { position: absolute; -webkit-transition: all 1s; transition: all 1s; width: 9rem; height: 9rem; top: 0; left: 3.5rem; background: #000; padding: 1.3rem; content: attr(data-tooltips); }
+
+@media only screen and (max-width: 43em) { .logo { width: 50%; }
+  .overlay-design { background-size: 25%, 25%; } }
+
+.mx { margin-left: 2rem; }

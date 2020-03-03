@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="776" height="567" viewBox="0 0 776 567">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_13" data-name="Rectangle 13" width="776" height="567" transform="translate(1144)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="design_BottomL" transform="translate(1920 567) rotate(180)" clip-path="url(#clip-path)">
+    <path id="coner_overlay" d="M11746,239.394s-100.547,45.455-152.062-39.394-112.121-103.03-200-127.273-21.212-178.788-133.333-215.152-281.818-142.424-281.818-142.424L12151.515-369.7,12112.121,200Z" transform="translate(-9690 231)" fill="#189da7"/>
+  </g>
+</svg>
